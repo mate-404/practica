@@ -1,0 +1,113 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 36px;
+    color: red;
+    margin: 0px 0px 0px 41%;
+    padding: 18px 0px 0px 0px;
+}
+
+.navbar {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(234 39 39);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 4px 64px 0px 0px;
+}
+
+.item-nosotros{
+    margin: 0px 33px 0px 33px;
+    color: white;
+}
+
+.item-contacto{
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.formulario{
+    text-align: center;
+    padding: 15px 0px;
+    margin: 0 3% 0 0;
+}
+
+.formulario-contacto{
+    text-align: center;
+    border:1px solid rgba(17, 1, 1, 0.116);
+    border-radius: 20px;
+    width: 35%;
+    margin: 0 auto;
+    padding: 18px 7px;
+    box-shadow: 0 0 10px #eee;
+}
+
+button {
+    color: white;
+    background-color: red;
+    border-radius: 9px;
+    padding: 6px 22px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: red;
+    background-color: white;
+}
+
+.formulario-contacto__input{
+    width: 96%;
+    margin: 0 0 18px 0;
+    border: 1px solid red;
+    border-radius: 8px;
+    height: 24px;
+}
+
+.formulario-contacto__label{
+    margin: 0 0 0 9px;
+    float: left;
+}
+
+.container-mensaje__label{
+    margin: 0 81% 0 0;
+}
+
+textarea{
+    border: 1px solid red;
+    border-radius: 8px;
+    resize: none;
+}
+
+.caja-opciones__opciones{
+    line-height: 3;
+}
+
+.box-1{
+    margin:0 33% 0 0;
+}
+
+.box-2{
+    margin:0 45% 0 0;
+}
+ 
